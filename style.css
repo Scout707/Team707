@@ -1,0 +1,186 @@
+body, hr{
+    padding: 0px;
+    margin: 0px;
+  }
+  header{
+    text-align: center;
+    background-color: #f4f4f4;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    
+  }
+  header h1{
+    color: black;
+    border:6px black;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 6px;
+  }
+  .banner img{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    top: 0%;
+    left: 0%;
+    filter: blur(2px);
+    opacity: 0.9;
+  }
+  .banner .welcome{
+    background-color: #00000099;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    padding: 18px;
+    right: 34%;
+  }
+  .banner .welcome span{
+    font-size: 1.4em;
+    text-decoration: underline black;
+  }
+  .welcome i{
+    color: darkorange;
+    background-color: transparent;
+  }
+  nav{
+    position: static;
+    background: #f4f4f4;
+    z-index: 1;
+    
+  }
+  nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav li{
+    
+    font-family: Tahoma;
+    width: 26%;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 0px;
+  }
+  nav li a{
+    
+    text-decoration: none;
+    color: #4B4B4B;
+    
+  }
+  nav li a.join{
+    color: darkorange;
+  }
+  nav li a:hover{
+    text-decoration: underline;
+  }
+  p, label, li{
+    font-size: 18px;
+  }
+  h2, p, label, footer, li{
+    font-family: tahoma;
+  }
+  footer{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 1px;
+  }
+  footer p,h2{
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+  footer input{
+    border-radius: 10px;
+    
+  }
+  form{
+    padding:0px;
+  }
+  footer form input:valid{
+    border-color: darkorange;
+  }
+  main{
+    margin-top: 10px;
+  }
+  main article h2{
+    text-decoration: underline;
+  }
+  .images{
+    text-align: center;
+    margin: 20px 0;
+    white-space: nowrap;
+    padding-left: 0%;
+  }
+  .images li{
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+    margin: 0px 9.5%;
+    right: 10%;
+    position: relative;
+  }
+  .images li:hover{
+    top: -8px;
+  }
+  @media screen and (max-width: 560px){
+    main ul{
+      padding-left:  25px;
+    }
+    .banner .welcome {
+      font-size: 10px;
+      top: 105px;
+      left: 135px;
+      display: inline-block;
+    }
+    .banner .welcome span{
+      font-size: 1em;
+    }
+    nav ul{
+      padding-left: 5px;
+    }
+    nav li{
+      display: block;
+      width: 100%;
+      margin: 3px 0;
+    }
+    article h2{
+      font-size: 20px;
+      display: inline-block;
+      text-align: center;
+      
+    }
+    header, nav{
+      position: relative;
+      top: 0;
+    }
+    footer label{
+      display: inline-block;
+      left: 50%;
+      font-size: 16px;
+    }
+    footer form{
+      margin: 5px;
+    }
+    .images{
+      left: 20%;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .images img{
+      left: 10px;
+      width: 201px;
+    }
+    p{
+      margin: 10px 5px;
+    }
+  }
